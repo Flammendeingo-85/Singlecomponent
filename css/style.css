@@ -103,6 +103,28 @@ p {
   margin-bottom: 0;
 }
 
+/*------  SUBSCRIPTION DIV ------*/
+.subscription {
+  background: var(--cyan);
+}
+
+.subscription__price {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.subscription__price span{
+  font-size: 1rem;
+  margin-left: 0.8rem;
+  font-weight: normal;
+  opacity: 0.5;
+}
+
+
+
 /*------ WHY DIV ------*/
 .why {
   background: var(--ltcyan);
@@ -111,7 +133,7 @@ p {
 .why ul {
   margin: 0;
   padding: 0;
-  line-height: 1.25rem;1
+  line-height: 1.25rem;
 }
 
 .why ul li {

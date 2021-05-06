@@ -102,3 +102,20 @@ p {
   line-height: 2;
   margin-bottom: 0;
 }
+
+/*------ WHY DIV ------*/
+.why {
+  background: var(--ltcyan);
+}
+
+.why ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1.25rem;1
+}
+
+.why ul li {
+  list-style-type: none;
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+}

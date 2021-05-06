@@ -140,7 +140,6 @@ p {
   transition: background 200ms ease-in;
 }
 
-
 /*------ WHY DIV ------*/
 .why {
   background: var(--ltcyan);
@@ -156,4 +155,15 @@ p {
   list-style-type: none;
   font-size: 1rem;
   margin-bottom: 0.1rem;
+}
+
+/*====== CUSTOM STYLES FOOTER ======*/
+.attribution { 
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
